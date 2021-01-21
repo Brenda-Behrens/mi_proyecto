@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<header>
+	<section>
+		<h3>Nutricionista:</h3>
+	</section>
+	<article> Natalia</article>
+	<p> Natalia camargo es Licenciada en Nutricion , (...) agregare mas a futuro...</p>	
+	<section>
+		<h3>Depiladoras </h3>
+	</section>
+	<article> Depilarte </article>
+	<p> En conjunto con el centro de estetica "DepilArte" atienden con profesionales altamente capacitados, con tecnologia d eultima generacion . Presentan  este servicio dedepilacion en la Localidad de Sarmierto .</p>
+</header>
+<body>
+	
+</body>
+</html>

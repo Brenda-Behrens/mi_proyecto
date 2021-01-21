@@ -1,0 +1,400 @@
+
+/* css*/
+:root {
+	font-size: 20px;
+}
+
+header , nav, ul, li, a {
+	color: #FF5733; /* rosa claro */
+	margin: top 10rem;
+	text-decoration: none;
+	font-size: 1rem;
+
+}
+
+legend {
+	color: green; /* verde oscuro*/
+}
+
+
+h2{
+	color: #3CEC70;
+	padding: 5px 5px 5px 5px ;
+	margin: 30px;
+}
+
+h4 {
+	color: green;
+}
+.Servicios {
+	color: green;
+
+}
+label  {
+
+	color: #FF5733 ;
+}
+article  , h3{
+
+	color: green;
+}
+textarea {
+
+	color: #40D466 
+}
+th {
+
+	color: #40D466 ;
+	
+	border: 1px solid black;
+	margin: 10px;
+}
+td  {
+	color: #3CEC70 ;
+	border: 1px solid black;
+	margin: 10px;
+
+}
+
+
+header {
+	font-size: 1rem;
+	font-style: normal;
+	font-family: "bunya PERSONAL", "sans-serif";
+	text-align: center;
+
+}
+
+
+body {
+	font-size:1rem;
+	font-family:  "bunya PERSONAL", "sans-serif";
+	background-image: url(nutri.jpg);
+	
+	background-size: cover;
+
+}
+h1{
+	font-size: 1,5rem;
+	font-family:"bunya PERSONAL", "sans-serif";
+	font-weight: bold;
+	text-align: center;
+	color: #3CEC70;
+	border: 1px solid black;
+	margin: 50px;
+	padding: 15px;
+	background-color: #e9bcb7;
+	background-image: linear-gradient(315deg, #e9bcb7 0%, #29524a 74%);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+textarea {
+	font-size: 1rem;
+	font-family: "A little sunshine", "sans-serif";
+	font-weight: bold;
+	text-align:left; 
+	
+}
+legend {
+	font-size: 1,5rem;
+	font-family: "A little sunshine", "sans-serif";
+	font-weight: bold;
+
+
+}
+.Esc{  
+
+	font-size:1rem;
+	font-family: "bunya PERSONAL", "sans-serif"; 
+	color: #FF5733;
+	font-weight: bold;
+	text-align: center;
+	background-color: #e9bcb7;
+	background-image: linear-gradient(315deg, #e9bcb7 0%, #29524a 74%);
+}	
+article .directora, header,.depi2 {  
+	text-align: center;
+	
+
+
+}
+li {
+	font-size: 1rem;
+	font-family: "Abadi","sans-serif";
+	font-weight: bold;
+	text-align: center;
+	list-style: none;
+}
+nav {color: #FF5733; /* rosa claro */
+	margin: top 10rem;
+	text-decoration: none;
+	font-size: 1rem;} 
+	a{  
+
+		font-size: 30px;
+		font-style: normal;
+		font-family: "bunya PERSONAL", "sans-serif";
+		text-align: center;
+
+		display: inline-block;
+		padding: 10px 30px 10px 10px ;
+		justify-content: space-around;
+	}
+
+
+	p{
+		font-size: 1rem;
+		font-style: normal;
+		font-family: "Abadi", "sans-serif";
+		text-align: center;
+	}
+
+	h4,h3.contactanos {  
+		font-size: 1rem;
+		font-style: normal;
+		font-family: "bunya PERSONAL ","sans-serif";
+		text-align: center;
+	}
+	h4.izquierda{
+
+		text-align: center ;
+		border: 1px dashed black;
+
+
+	}
+	h2.iz{
+		background-color: #e9bcb7;
+		background-image: linear-gradient(315deg, #e9bcb7 0%, #29524a 74%);
+
+		text-align: center;
+		border: 0px solid black;
+		margin: 10px;
+	}
+	*{
+		box-sizing: border-box;
+
+	}
+	thead {
+		border: 1px dashed black;
+	}
+	tbody{
+		
+		border: 1px solid black;
+		margin: 10px;
+	}
+	div{
+		border: 0px solid black;
+		margin: 10px;
+	}
+	section {
+		border: 0px solid black;
+		margin: 15px;
+
+	}
+
+	table{
+		margin-top:5rem;
+
+		
+	}
+
+}
+.MainNav{
+	
+	display: inline-flex;
+	flex-flow: row nowrap;
+	justify-content: flex-end;
+
+
+
+}
+
+input {
+	width: 200px; height: 30px;
+	transition: all 2s;       
+}
+input:focus {
+	width: 300px;
+	font-size: 30px;
+}
+.Servicios{
+	
+	background-color: #e9bcb7;
+	background-image: linear-gradient(315deg, #e9bcb7 0%, #29524a 74%);
+
+
+}
+
+
+
+#dee{
+	border: 0px solid black;
+	margin: 10px;
+	padding: 15px;
+	background-color: #e9bcb7;
+	background-image: linear-gradient(315deg, #e9bcb7 0%, #29524a 74%);
+
+
+}
+#tab{
+	font-size: 30px;
+	background-color: #e9bcb7;
+	background-image: linear-gradient(315deg, #e9bcb7 0%, #29524a 74%);
+
+
+}
+#tab2{
+	font-size: 30px;
+	background-color: white;
+
+	
+
+}
+#logo {
+	background-repeat: no-repeat;
+	background-position: 50%;
+	border-radius: 50%;
+	background-size: 100% auto;
+	display: flex;
+	align-items: flex-start;
+}
+img {
+	background-repeat: no-repeat;
+	background-position: 50%;
+	
+	background-size: 100% auto;
+	display: flex;
+	align-items: flex-start;
+}
+button {
+	border: solid;
+	background-color: black;
+}
+body{width:75%;margin: 0 auto;min-width: 600px;max-width:2000px}
+#container{width: 70%;}
+
+@media (max-width: 360px)
+{
+	aside { display: none; }
+}
+
+
+.Main-Redes {  
+
+	font-size: 1rem;
+	font-style: normal;
+	font-family: "bunya PERSONAL", "sans-serif";
+	text-align: center;
+	border: 0px dashed black;
+	padding: 20px 10px 20px 10px ;
+	margin: 150px;
+	background-color: #e9bcb7;
+	background-image: linear-gradient(315deg, #e9bcb7 0%, #29524a 74%);
+}
+
+.Main-Redes__list{
+	
+
+	position: fixed;
+	right: 1rem;
+	bottom: 1rem;
+
+	
+
+	padding: 10px 30px 10px 10px ;
+	justify-content: space-around;
+
+	display: inline-flex;
+	flex-flow: row nowrap;
+	justify-content: flex-end;
+}
+.Main-Redes__link{
+	background-color: powderblue;
+	transition: background-color .5s;
+}
+.Main-Redes__link:hover {
+	background-color: #3CEC70;
+	background-color: #e9bcb7;
+	background-image: linear-gradient(315deg, #e9bcb7 0%, #29524a 74%);
+}
+
+
+.grid--Nutricionistas {
+	display: grid;  
+	grid-template-columns: 2fr 1fr; 
+	grid-template-rows: 3fr 1fr; 
+	align-items: stretch;
+	transform: translate(10px , 10px);
+
+
+
+}
+.grid--Nutricionistas__directoras {
+	border: 0px dashed black;
+	padding: 5px 15px 5px 15px ;
+	margin: 10px;
+	color: #F34F41 ;
+
+}
+.grid2--depilacion{
+	display: inline-block;  
+	grid-template-columns: 2fr 1fr; 
+	grid-template-rows: 3fr 1fr; 
+	align-items: stretch;
+	transform: translate(10px , 10px);
+	background-color: black;
+
+
+}
+.grid2--depilacion__titulo {
+	border: none;
+	background-color:black;
+	align-items: stretch;
+
+}
+.grid2--depilacion__info{
+
+	font-size: 2rem;
+	font-family:"bunya PERSONAL", "sans-serif";
+	color: white;
+	font-weight: bold;
+	text-align: center;
+	display: inline-grid;
+	
+}
+
+@media (max-width: 360px)
+{
+
+	.img-wrapper{
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: 100px;
+  justify-content: center;
+
+
+	}
+
+
+
+	.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  grid-template-rows: repeat(3,100px);
+  height: 500px;
+  width: 500px;
+  grid-gap: 10px;
+  grid-template-areas:
+    "a b"
+    "a b"
+}
+.item1 {
+  grid-area: a;
+}
+.item2 {
+  grid-area: b;
+
+}
