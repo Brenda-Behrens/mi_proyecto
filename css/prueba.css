@@ -1,4 +1,5 @@
 /* css*/
+@import url(frameworks\bootstrap\scss\bootstrap.scss);
 :root {
   font-size: 20px; }
 
@@ -8,6 +9,8 @@ header, nav, ul, li, a {
   margin: top 10rem;
   text-decoration: none;
   font-size: 1rem; }
+  header a:hover, nav a:hover, ul a:hover, li a:hover, a a:hover {
+    background-color: #C1F1CD; }
 
 legend {
   color: green;
@@ -50,21 +53,6 @@ body {
   background-image: url(nutri.jpg);
   background-size: cover; }
 
-h1 {
-  font-size: 1,5rem;
-  font-family: "bunya PERSONAL", "sans-serif";
-  font-weight: bold;
-  text-align: center;
-  color: #3CEC70;
-  border: 1px solid black;
-  margin: 50px;
-  padding: 15px;
-  background-color: #e9bcb7;
-  background-image: linear-gradient(315deg, #e9bcb7 0%, #29524a 74%);
-  display: flex;
-  align-items: center;
-  justify-content: center; }
-
 textarea {
   font-size: 1rem;
   font-family: "A little sunshine", "sans-serif";
@@ -77,10 +65,11 @@ legend {
   font-weight: bold; }
 
 .Esc {
-  font-size: 1rem;
+  font-size: 2rem;
   font-family: "bunya PERSONAL", "sans-serif";
   color: #FF5733;
   font-weight: bold;
+  text-shadow: 1px 1px 2px black;
   text-align: center;
   background-color: #e9bcb7;
   background-image: linear-gradient(315deg, #e9bcb7 0%, #29524a 74%); }
@@ -94,22 +83,6 @@ li {
   font-weight: bold;
   text-align: center;
   list-style: none; }
-
-nav {
-  color: #FF5733;
-  /* rosa claro */
-  margin: top 10rem;
-  text-decoration: none;
-  font-size: 1rem; }
-
-a {
-  font-size: 30px;
-  font-style: normal;
-  font-family: "bunya PERSONAL", "sans-serif";
-  text-align: center;
-  display: inline-block;
-  padding: 10px 30px 10px 10px;
-  justify-content: space-around; }
 
 p {
   font-size: 1rem;
@@ -154,11 +127,6 @@ section {
 
 table {
   margin-top: 5rem; }
-
-.MainNav {
-  display: inline-flex;
-  flex-flow: row nowrap;
-  justify-content: flex-end; }
 
 input {
   width: 200px;
@@ -240,16 +208,20 @@ body {
   justify-content: space-around;
   display: inline-flex;
   flex-flow: row nowrap;
-  justify-content: flex-end; }
-
-.Main-Redes__link {
-  background-color: powderblue;
+  justify-content: flex-end;
+  background-color: #C1F1CD;
   transition: background-color .5s; }
 
-.Main-Redes__link:hover {
-  background-color: #3CEC70;
-  background-color: #e9bcb7;
-  background-image: linear-gradient(315deg, #e9bcb7 0%, #29524a 74%); }
+.Main-Redes__link {
+  background-color: #C1F1CD;
+  transition: background-color .5s; }
+
+.Main-Redes__item:hover img {
+  -webkit-transform: scale(1.25);
+  -moz-transform: scale(1.25);
+  -ms-transform: scale(1.25);
+  -o-transform: scale(1.25);
+  background-color: black; }
 
 .grid--Nutricionistas {
   display: grid;
@@ -300,7 +272,26 @@ body {
   color: white; }
 
 h1 {
-  color: black; }
+  color: black;
+  color: black;
+  font-size: 1,5rem;
+  font-family: "bunya PERSONAL", "sans-serif";
+  font-weight: bold;
+  /* text-align: center; */
+  /* border: 1px solid black; */
+  margin: 50px;
+  padding: 15px;
+  transparent: #e9bcb7;
+  background-image: transparent;
+  display: grid;
+  align-items: end;
+  justify-content: start;
+  position: relative;
+  z-index: 100;
+  -webkit-transition: background-color .2s linear;
+  transition: background-color .2s linear;
+  background-color: rgba(1, 1, 1, 0.5);
+  text-shadow: 2px 2px 4px rgba(1, 1, 1, 0.75); }
 
 h2 {
   color: black;
@@ -320,3 +311,8 @@ h2 {
   height: 500px;
   width: 500px;
   grid-gap: 10px; }
+
+.MainNav {
+  display: inline-flex;
+  flex-flow: row nowrap;
+  justify-content: flex-end; }

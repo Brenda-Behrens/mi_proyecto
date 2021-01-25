@@ -1,14 +1,18 @@
 
 /* css*/
+@import url(frameworks\bootstrap\scss\bootstrap.scss);
 :root {
 	font-size: 20px;
+
 }
+
 
 header , nav, ul, li, a {
 	color: #FF5733; /* rosa claro */
 	margin: top 10rem;
 	text-decoration: none;
 	font-size: 1rem;
+	a:hover{ background-color: #C1F1CD};
 
 }
 
@@ -69,22 +73,6 @@ body {
 	background-size: cover;
 
 }
-h1{
-	font-size: 1,5rem;
-	font-family:"bunya PERSONAL", "sans-serif";
-	font-weight: bold;
-	text-align: center;
-	color: #3CEC70;
-	border: 1px solid black;
-	margin: 50px;
-	padding: 15px;
-	background-color: #e9bcb7;
-	background-image: linear-gradient(315deg, #e9bcb7 0%, #29524a 74%);
-	display: flex;
-	align-items: center;
-	justify-content: center;
-
-}
 textarea {
 	font-size: 1rem;
 	font-family: "A little sunshine", "sans-serif";
@@ -101,10 +89,11 @@ legend {
 }
 .Esc{  
 
-	font-size:1rem;
+	font-size:2rem;
 	font-family: "bunya PERSONAL", "sans-serif"; 
 	color: #FF5733;
 	font-weight: bold;
+	text-shadow: 1px 1px 2px black;
 	text-align: center;
 	background-color: #e9bcb7;
 	background-image: linear-gradient(315deg, #e9bcb7 0%, #29524a 74%);
@@ -122,21 +111,7 @@ li {
 	text-align: center;
 	list-style: none;
 }
-nav {color: #FF5733; /* rosa claro */
-	margin: top 10rem;
-	text-decoration: none;
-	font-size: 1rem;} 
-	a{  
 
-	font-size: 30px;
-	font-style: normal;
-	font-family: "bunya PERSONAL", "sans-serif";
-	text-align: center;
-
-	display: inline-block;
-	padding: 10px 30px 10px 10px ;
-	justify-content: space-around;
-}
 
 
 p{
@@ -195,15 +170,7 @@ table{
 	
 }
 
-.MainNav{
-	
-	display: inline-flex;
-	flex-flow: row nowrap;
-	justify-content: flex-end;
 
-
-
-}
 
 input {
 	width: 200px; height: 30px;
@@ -269,6 +236,7 @@ button {
 body{width:100%;margin: 0 auto;min-width:600px;max-width:2000px}
 #container{width: 80%;}
 
+
 @media (max-width: 480px)
 {
 	aside { display: none; }
@@ -295,23 +263,25 @@ body{width:100%;margin: 0 auto;min-width:600px;max-width:2000px}
 	right: 1rem;
 	bottom: 1rem;
 
-	
-
 	padding: 10px 30px 10px 10px ;
 	justify-content: space-around;
 
 	display: inline-flex;
 	flex-flow: row nowrap;
 	justify-content: flex-end;
-}
-.Main-Redes__link{
-	background-color: powderblue;
+	background-color: #C1F1CD;
 	transition: background-color .5s;
 }
-.Main-Redes__link:hover {
-	background-color: #3CEC70;
-	background-color: #e9bcb7;
-	background-image: linear-gradient(315deg, #e9bcb7 0%, #29524a 74%);
+.Main-Redes__link{
+	background-color: #C1F1CD;
+	transition: background-color .5s;
+
+}
+.Main-Redes__item:hover img{-webkit-transform:scale(1.25);
+-moz-transform:scale(1.25);
+-ms-transform:scale(1.25);
+-o-transform:scale(1.25);
+background-color: black;
 }
 
 
@@ -379,7 +349,29 @@ body{width:100%;margin: 0 auto;min-width:600px;max-width:2000px}
  $secundary:#3CEC70;
  $naveg-flot : #C1F1CD;
 
- h1{ color:$primary; }  
+ h1{ color:$primary;
+ 	    color: black;
+    font-size: 1,5rem;
+    font-family: "bunya PERSONAL", "sans-serif";
+    font-weight: bold;
+    /* text-align: center; */
+
+    /* border: 1px solid black; */
+    margin: 50px;
+    padding: 15px;
+    transparent: #e9bcb7;
+    background-image: transparent;
+    display: grid;
+    align-items: end;
+    justify-content: start;;
+        position: relative;
+    z-index: 100;
+    -webkit-transition: background-color .2s linear;
+    transition: background-color .2s linear;
+    background-color: rgba(1,1,1,.5);
+    text-shadow: 2px 2px 4px rgba(1,1,1,.75);
+
+  }  
 
 
 
@@ -403,6 +395,17 @@ h2{
   height: 500px;
   width: 500px;
   grid-gap: 10px;}
+
+  .MainNav{
+	
+	display: inline-flex;
+	flex-flow: row nowrap;
+	justify-content: flex-end;
+
+
+}
+
+
 	
 
 
