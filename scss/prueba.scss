@@ -1,6 +1,6 @@
 
 /* css*/
-@import url(frameworks\bootstrap\scss\bootstrap.scss);
+
 :root {
 	font-size: 20px;
 
@@ -404,6 +404,13 @@ h2{
 
 
 }
+.carousel-item img {
+
+	weight:auto;
+	height:780px;
+	background-size: cover;
+}
+@import url(frameworks\bootstrap\scss\bootstrap.scss);
 
 
 	

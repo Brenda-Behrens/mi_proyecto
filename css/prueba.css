@@ -316,3 +316,8 @@ h2 {
   display: inline-flex;
   flex-flow: row nowrap;
   justify-content: flex-end; }
+
+.carousel-item img {
+  weight: auto;
+  height: 780px;
+  background-size: cover; }
