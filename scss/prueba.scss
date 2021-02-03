@@ -244,7 +244,7 @@ body{width:100%;margin: 0 auto;min-width:600px;max-width:2000px}
 
 
 .Main-Redes {  
-
+m
 	font-size: 1rem;
 	font-style: normal;
 	font-family: "bunya PERSONAL", "sans-serif";
@@ -281,7 +281,7 @@ body{width:100%;margin: 0 auto;min-width:600px;max-width:2000px}
 -moz-transform:scale(1.25);
 -ms-transform:scale(1.25);
 -o-transform:scale(1.25);
-background-color: black;
+background-color: white;
 }
 
 
@@ -406,13 +406,29 @@ h2{
 }
 .carousel-item img {
 
-	weight:auto;
+	width:auto;
 	height:780px;
 	background-size: cover;
 }
 @import url(frameworks\bootstrap\scss\bootstrap.scss);
 
+.programa {
+	display: inline-grid;
+	grid-row-end: 2fr 1fr;
 
 	
+}
+´.programa img {
+	height: 350px;
+	width: auto;
+}
+#os {
+	weight:20px;
+	height: 50px;
+}
+.grid {
+  display: grid;
+  grid-template-columns: fr 1fr;
+  grid-template-rows: 2fr 1fr;
 
-
+}
