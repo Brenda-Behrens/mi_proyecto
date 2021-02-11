@@ -2,16 +2,10 @@
 /* css*/
 @import url(frameworks\bootstrap\scss\bootstrap.scss);
 :root {
-  font-size: 20px; }
-
-header, nav, ul, li, a {
-  color: #FF5733;
-  /* rosa claro */
-  margin: top 10rem;
-  text-decoration: none;
-  font-size: 1rem; }
-  header a:hover, nav a:hover, ul a:hover, li a:hover, a a:hover {
-    background-color: #C1F1CD; }
+  font-size: 20px;
+  margin: 1rem;
+  padding: 2rem;
+  margin-top: 1rem; }
 
 legend {
   color: green;
@@ -109,6 +103,10 @@ h2.iz {
   margin: 10px; }
 
 * {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
   box-sizing: border-box; }
 
 thead {
@@ -186,7 +184,7 @@ body {
 #container {
   width: 80%; }
 
-@media (max-width: 480px) {
+@media (max-width: 320px) {
   aside {
     display: none; } }
 
@@ -222,7 +220,7 @@ body {
   -moz-transform: scale(1.25);
   -ms-transform: scale(1.25);
   -o-transform: scale(1.25);
-  background-color: black; }
+  background-color: white; }
 
 .grid--Nutricionistas {
   display: grid;
@@ -258,7 +256,7 @@ body {
   text-align: center;
   display: inline-grid; }
 
-@media (max-width: 360px) {
+@media (max-width: 320px) {
   aside {
     display: none; } }
 
@@ -319,7 +317,7 @@ h2 {
   justify-content: flex-end; }
 
 .carousel-item img {
-  weight: auto;
+  width: auto;
   height: 780px;
   background-size: cover; }
 
@@ -339,3 +337,57 @@ h2 {
   display: grid;
   grid-template-columns: fr 1fr;
   grid-template-rows: 2fr 1fr; }
+
+.main-container {
+  padding: 0;
+  position: relative;
+  -ms-flex-line-pack: stretch;
+  align-content: stretch;
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  height: auto; }
+
+header, nav, ul, li, a {
+  color: #FF5733;
+  /* rosa claro */
+  margin: top 10rem;
+  text-decoration: none;
+  font-size: 1rem;
+  position: relative;
+  border-radius: 15px; }
+
+a:hover {
+  color: grey;
+  text-decoration: none;
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  background-color: white;
+  transition: all .6s; }
+
+.submenu {
+  position: absolute;
+  background: #C1F1CD;
+  width: 120%;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 1.5s;
+  justify-content: center;
+  align-content: center; }
+
+.submenu li a {
+  display: block;
+  padding: 1rem;
+  color: black;
+  font-family: "Open sans";
+  text-decoration: none;
+  border-radius: 15px; }
+
+.nav li:hover .submenu {
+  visibility: visible;
+  opacity: 3;
+  background-color: white;
+  transition: all .2s;
+  border-radius: 15px; }
