@@ -52,10 +52,10 @@ td  {
 
 
 header {
-	font-size: 1rem;
+font-size: 1rem;
 	font-style: normal;
 	font-family: "bunya PERSONAL", "sans-serif";
-	text-align: center;
+	text-align: center;	
 
 }
 
@@ -65,7 +65,7 @@ body {
 	font-family:  "bunya PERSONAL", "sans-serif";
 	background-image: url(nutri.jpg);
 	
-	background-size: cover;
+	background-size: absolute;
 
 }
 textarea {
@@ -223,7 +223,7 @@ input:focus {
 }
 img {
 	background-repeat: no-repeat;
-	background-position: 50%;
+	background-position: 100%;
 	
 	background-size: 100% auto;
 	display: flex;
@@ -245,17 +245,32 @@ body{width:100%;margin: 0 auto;min-width:600px;max-width:2000px}
 
 .Main-Redes {  
 
-	font-size: 1rem;
+	font-size: 2rem;
 	font-style: normal;
 	font-family: "bunya PERSONAL", "sans-serif";
-	text-align: center;
+	text-align: right ;
+	
 	border: 0px dashed black;
-	padding: 20px 10px 20px 10px ;
-	margin: 150px;
-	background-color: #e9bcb7;
-	background-image: linear-gradient(315deg, #e9bcb7 0%, #29524a 74%);
-}
+	padding: 10px 10px 10px 10px ;
+	margin: 10px;
+	border: solid;
+  border: green 5px double;
+  border-top-left-radius: 100px;
+  border-bottom-right-radius: 120px;
+  background-size: transparent; 
 
+}
+    ol li {
+  
+     
+    	text-align: right ;
+	  
+	
+}
+h6{
+	margin-right: 10px;
+	text-align: left;
+}
 .Main-Redes__list{
 	
 
@@ -308,7 +323,7 @@ background-color: white;
 	grid-template-rows: 3fr 1fr; 
 	align-items: stretch;
 	transform: translate(10px , 10px);
-	background-color: black;
+	background-color: transparent;
 
 
 }
@@ -402,6 +417,16 @@ h2{
 	display: inline-flex;
 	flex-flow: row nowrap;
 	justify-content: flex-end;
+	text-shadow: 1px 1px 1px rgba(1,1,1,.75);
+    color: black;
+    font-size: bold;
+    transparent: #e9bcb7;
+    background-image: transparent;
+    z-index: 100;
+    -webkit-transition: background-color .2s linear;
+    transition: background-color .2s linear;
+    background-color: rgba(1, 1, 1, 0.5);
+   
 
 
 }
@@ -492,6 +517,49 @@ header , nav, ul, li, a {
     transition: all .2s;
     border-radius: 15px;
 
+}
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+footer {
+	position: relative;
+	margin-top: 0;
+	padding: 0;
+	margin: 0;
+	text-shadow: 2px 2px 4px rgba(1,1,1,.75);
+    color: black;
+    font-size: bold;
+    transparent: #e9bcb7;
+    background-image: transparent;
+    z-index: 100;
+    -webkit-transition: background-color .2s linear;
+    transition: background-color .2s linear;
+    background-color: rgba(1, 1, 1, 0.5);
+   
+
+}
+
+#obras_sociales{
+	padding: 1rem; 
+	margin: auto;
+	margin-bottom:1rem;
+	width:170px;
+	 height:auto;
+	 background-image:cover;
+
+	
+	
+}
+html { 
+  background: url(nutri.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 
