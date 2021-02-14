@@ -262,11 +262,11 @@ body{width:100%;margin: 0 auto;min-width:600px;max-width:2000px}
 
 }
 ol li {
-	
+
 	align-items:left;
 	text-align: right ;
 	color: black;
-	
+
 	
 }
 h6{
@@ -444,7 +444,7 @@ h2{
 	-webkit-transition: background-color .2s linear;
 	transition: background-color .2s linear;
 	background-color: rgba(1, 1, 1, 0.5);
-	
+
 
 
 }
@@ -511,6 +511,13 @@ a:hover{
 	transition: all .6s;
 	align-items: auto;
 }
+header a:hover{
+	color: none;
+	text-decoration: none;
+	box-shadow: none;
+	background-color: none;
+	transition:none 
+	
 
 .submenu {
 	position:absolute;
@@ -564,7 +571,7 @@ footer {
 	font-size: bold;
 	background-image: transparent;
 	background-color: rgba(1, 1, 1, 0.5);
-	
+
 
 }
 
