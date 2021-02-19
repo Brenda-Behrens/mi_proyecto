@@ -148,28 +148,38 @@ h2.iz{
 
 }
 thead {
-	border: 1px dashed black;
+	
+	border-bottom: solid 5px #FF5733;
+	color: white;
+	font-family: "bunya PERSONAL ","sans-serif";
+	color: #FF5733;
+	font-weight: bold;
+	text-shadow: 1px 1px 2px black;
+	text-align: center;
+
+	
+
 }
 tbody{
 	
-	border: 1px solid black;
-	margin: 10px;
-}
-div{
-	border: 0px solid black;
-	margin: 10px;
+	border: none;
+	margin: 20px;
+	padding: 5px;
+	
+
 }
 section {
-	border: 0px solid black;
-	margin: 15px;
+
+	margin: 20px;
+	padding: 5px;
 
 }
 
 table{
 	width: 100%;
-	background-color: white;
 	border-collapse: collapse;
 	text-align: left;
+	border: none;
 
 
 	
@@ -177,7 +187,57 @@ table{
 
 th,td {
 	padding: 20px;
+	border: none;
 }
+
+
+
+#dee{
+	border: 0px none;
+	margin: 10px;
+	padding: 15px;
+
+
+
+}
+#tab{
+	
+	
+	background-image: linear-gradient(315deg, #e9bcb7 0%, #29524a 74%);
+	text-align: center ;
+	padding: 1rem;
+	margin: 150px auto;
+	width: 600px;
+	font-size: 30px;
+	font-family: "A little sunshine", "sans-serif";
+
+
+
+
+}
+#tab2{
+	font-size: 15px;
+	color: black;
+
+	text-align: center ;
+	padding: 0;
+	background-color: grey;
+	border-left:  solid 5px #246355;
+
+
+}
+tr:hover{
+	box-shadow: 3px 3px #FF5733, -1em 0 0.4em #C1F1CD;
+	-webkit-transform:scale(1.0);
+	-moz-transform:scale(1.0);
+	-ms-transform:scale(1.0);
+	-o-transform:scale(1.0);
+	background-color: white;
+	transition: all .6s;
+	align-items: auto;
+
+}
+
 
 
 
@@ -194,36 +254,6 @@ input:focus {
 	background-color: #e9bcb7;
 	background-image: linear-gradient(315deg, #e9bcb7 0%, #29524a 74%);
 
-
-}
-
-
-
-#dee{
-	border: 0px solid black;
-	margin: 10px;
-	padding: 15px;
-	background-color: #e9bcb7;
-	background-image: linear-gradient(315deg, #e9bcb7 0%, #29524a 74%);
-
-
-}
-#tab{
-	font-size: 30px;
-	background-color: #e9bcb7;
-	background-image: linear-gradient(315deg, #e9bcb7 0%, #29524a 74%);
-	text-align: center ;
-	padding: 0;
-	margin: 150px auto;
-	width: 600px;
-
-
-}
-#tab2{
-	font-size: 30px;
-	background-color: white;
-	text-align: center ;
-	padding: 0;
 
 	
 
@@ -630,4 +660,8 @@ html, body {
 	display:block;
 	margin-left: auto;
 	margin-right: auto
+}
+.contain{
+	display: grid;
+	display: inline-grid;
 }
