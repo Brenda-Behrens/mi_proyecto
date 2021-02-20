@@ -216,13 +216,17 @@ th,td {
 
 }
 #tab2{
-	font-size: 15px;
+	font-size: 17px;
 	color: black;
 
 	text-align: center ;
 	padding: 0;
 	background-color: grey;
 	border-left:  solid 5px #246355;
+	font-family: "bunya PERSONAL", "sans-serif";
+	padding: 1rem;
+	margin: 150px auto;
+	width: 600px;
 
 
 }
@@ -299,7 +303,7 @@ body{width:100%;margin: 0 auto;min-width:600px;max-width:2000px}
 	padding: 10px 10px 10px 10px ;
 	margin: 10px;
 	border: solid;
-	border: green 5px double;
+	border: #C1F1CD 5px double;
 	border-top-left-radius: 100px;
 	border-bottom-right-radius: 120px;
 	background-size: transparent; 
@@ -603,6 +607,7 @@ a:hover{
 	margin-left: auto;
 }
 footer {
+	border-color:$naveg-flot;
 	position: relative;
 	margin-top: 0;
 	padding: 0;
@@ -664,4 +669,27 @@ html, body {
 .contain{
 	display: grid;
 	display: inline-grid;
+}
+.carousel-control-next:focus, .carousel-control-next:hover, .carousel-control-prev:focus, .carousel-control-prev:hover {
+
+	color: transparent;
+	text-decoration: none;
+	box-shadow: 3px 3px ;
+	-webkit-transform:scale(1.2);
+	-moz-transform:scale(1.2);
+	-ms-transform:scale(1.2);
+	-o-transform:scale(1.2);
+	background-color:none;
+	transition: all .3s;
+	align-items: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: 2;
+
+    width: 5%;
+    height: auto;
+    text-align: center;
+    opacity: .5;
+    
 }
