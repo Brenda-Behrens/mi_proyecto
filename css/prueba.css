@@ -144,11 +144,12 @@ th, td {
   padding: 15px; }
 
 #tab {
-  background-image: linear-gradient(315deg, #e9bcb7 0%, #29524a 74%);
+  background-image: linear-gradient(315deg, grey 45%, #fff 90%);
   text-align: center;
   padding: 1rem;
   margin: 150px auto;
   width: 600px;
+  text-shadow: #FF5733 2px 2px 2px;
   font-size: 30px;
   font-family: "A little sunshine", "sans-serif"; }
 
@@ -173,6 +174,9 @@ tr:hover {
   background-color: white;
   transition: all .6s;
   align-items: auto; }
+
+#tab:hover {
+  text-shadow: black 2px 2px 2px; }
 
 input {
   width: 200px;
@@ -365,14 +369,6 @@ h2 {
 .Main-Redes__link {
   background-color: #C1F1CD; }
 
-.wrapper {
-  display: grid;
-  grid-template-columns: repeat(3, 100px);
-  grid-template-rows: repeat(3, 100px);
-  height: 500px;
-  width: 500px;
-  grid-gap: 10px; }
-
 .MainNav {
   display: inline-flex;
   flex-flow: row nowrap;
@@ -555,3 +551,46 @@ html, body {
   height: auto;
   text-align: center;
   opacity: .5; }
+
+@media all and (max-width: 1200px) {
+  .res {
+    display: inline-block;
+    padding: 0px 6px;
+    margin: 0px 4px; } }
+
+@media all and (max-width: 840px) {
+  .res {
+    margin: 0px;
+    padding: 0px;
+    padding-left: 5%;
+    display: block;
+    float: none;
+    text-align: left; } }
+
+#deco {
+  background-image: linear-gradient(315deg, grey 45%, #fff 90%);
+  text-align: center;
+  padding: 1rem;
+  margin: 20px auto;
+  width: 300px;
+  text-shadow: black 2px 2px 2px;
+  font-size: 30px;
+  font-family: "A little sunshine", "sans-serif"; }
+
+#deco:hover {
+  text-shadow: #C1F1CD 2px 2px 2px;
+  color: black; }
+
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  display: inline-grid; }
+
+#wrapper {
+  padding: 1rem;
+  margin: auto;
+  margin-bottom: 1rem;
+  width: 270px;
+  height: auto;
+  background-image: cover;
+  display: grid; }
