@@ -476,7 +476,8 @@ a:hover {
   padding-right: 5px;
   padding-left: 5px;
   margin-right: auto;
-  margin-left: auto; }
+  margin-left: auto;
+  max-width: 1100px; }
 
 footer {
   border-color: #C1F1CD;
@@ -594,3 +595,19 @@ html, body {
   height: auto;
   background-image: cover;
   display: grid; }
+
+#depi {
+  color: #C1F1CD;
+  font-size: 2rem; }
+
+#depi:hover {
+  color: black; }
+
+.btn-primary {
+  background-color: #C1F1CD;
+  border-color: #C1F1CD;
+  font-family: "A little sunshine", "sans-serif";
+  position: inherit;
+  justify-content: end;
+  text-decoration-color: black;
+  color: black; }

@@ -603,6 +603,7 @@ a:hover{
 	padding-left: 5px;
 	margin-right: auto;
 	margin-left: auto;
+	max-width: 1100px;
 }
 footer {
 	border-color:$naveg-flot;
@@ -741,4 +742,22 @@ html, body {
 	height:auto;
 	background-image:cover;
 	display: grid;
+}
+#depi{
+	color: $naveg-flot;
+	font-size: 2rem;
+
+}
+#depi:hover{
+	color: $primary
+}
+.btn-primary{
+	background-color: $naveg-flot;
+    border-color:$naveg-flot ;
+   font-family: "A little sunshine", "sans-serif";
+	position: inherit;
+	justify-content: end;
+	text-decoration-color: black;
+	color: black;
+
 }
