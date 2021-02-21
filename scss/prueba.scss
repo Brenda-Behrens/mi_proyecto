@@ -243,7 +243,7 @@ tr:hover{
 
 }
 #tab:hover{
-		text-shadow: black 2px 2px 2px ;
+	text-shadow: black 2px 2px 2px ;
 
 }
 
@@ -436,6 +436,7 @@ h6{
 $primary :black;
 $secundary:#3CEC70;
 $naveg-flot : #C1F1CD;
+$intense:#FF5733;
 
 h1{ color:$primary;
 	color: black;
@@ -535,7 +536,7 @@ h2{
 	height: auto;
 }
 header , nav, ul, li, a {
-	color: #FF5733; /* rosa claro */
+	color: $intense; /* rosa claro */
 	margin: top 10rem;
 	text-decoration: none;
 	font-size: 1rem;
@@ -550,7 +551,7 @@ header , nav, ul, li, a {
 a:hover{
 	color: grey;
 	text-decoration: none;
-	box-shadow: 3px 3px #FF5733, -1em 0 0.4em #C1F1CD;
+	box-shadow: 3px 3px $intense, -1em 0 0.4em $naveg-flot;
 	-webkit-transform:scale(1.2);
 	-moz-transform:scale(1.2);
 	-ms-transform:scale(1.2);
@@ -560,14 +561,14 @@ a:hover{
 	align-items: auto;
 }
 
-	
+
 
 .submenu {
 	position:absolute;
 	top: 5px; left: 20px;
 	padding: 1rem;
 	margin-top: 1rem;
-	background:#C1F1CD ;
+	background:$naveg-flot ;
 	width: 120%;
 	visibility: hidden;
 	opacity: 0;
@@ -595,7 +596,7 @@ a:hover{
 	border-radius: 15px;
 	position: relative;
 	line-height: 1.5;
-	box-shadow: 3px 3px #FF5733, -1em 0 0.4em #C1F1CD;
+	box-shadow: 3px 3px $intense, -1em 0 0.4em #C1F1CD;
 }
 .container {
 	width: 100%;
@@ -612,7 +613,7 @@ footer {
 	padding: 0;
 	margin: 10px;
 	text-shadow: 2px 2px 4px rgba(1,1,1,.75);
-	color: black;
+	color: $primary;
 	font-size: bold;
 	background-image: transparent;
 	background-color: rgba(1, 1, 1, 0.5);
@@ -681,33 +682,33 @@ html, body {
 	background-color:none;
 	transition: all .3s;
 	align-items: auto;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    z-index: 2;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	z-index: 2;
 
-    width: 5%;
-    height: auto;
-    text-align: center;
-    opacity: .5;
-    
+	width: 5%;
+	height: auto;
+	text-align: center;
+	opacity: .5;
+	
 }
 @media all and (max-width: 1200px) {
-  .res{
-        display: inline-block;
-        padding:0px 6px;
-        margin:0px 4px;
-    }
+	.res{
+		display: inline-block;
+		padding:0px 6px;
+		margin:0px 4px;
+	}
 }
 @media all and (max-width: 840px) {
-    .res{
-        margin:0px;
-        padding:0px;
-        padding-left:5%;
-        display:block;
-        float:none;
-        text-align:left;
-    }
+	.res{
+		margin:0px;
+		padding:0px;
+		padding-left:5%;
+		display:block;
+		float:none;
+		text-align:left;
+	}
 }
 #deco{
 	
@@ -717,15 +718,15 @@ html, body {
 	padding: 1rem;
 	margin: 20px auto;
 	width: 300px;
-	text-shadow:  black 2px 2px 2px ;
+	text-shadow:  $primary 2px 2px 2px ;
 	font-size: 30px;
 	font-family: "A little sunshine", "sans-serif";
 
 }
 
 #deco:hover{
-		text-shadow: $naveg-flot 2px 2px 2px ;
-		color: black;
+	text-shadow: $naveg-flot 2px 2px 2px ;
+	color: black;
 
 }
 .wrapper{
@@ -753,11 +754,40 @@ html, body {
 }
 .btn-primary{
 	background-color: $naveg-flot;
-    border-color:$naveg-flot ;
-   font-family: "A little sunshine", "sans-serif";
+	border-color:$naveg-flot ;
+	font-family: "A little sunshine", "sans-serif";
+	position: inherit;
+	justify-content: end;
+	text-decoration-color: black;
+	color: black;
+}
+.btn-primary:hover {
+	background-color: $intense;
+	border-color:$naveg-flot ;
+	font-family: "A little sunshine", "sans-serif";
 	position: inherit;
 	justify-content: end;
 	text-decoration-color: black;
 	color: black;
 
+
+}
+.card-body {
+	-ms-flex: 1 1 auto;
+	padding: 1.25rem;
+	margin-bottom: 20px;
+}
+
+.card {
+	position: relative;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	min-width: 8;
+	word-wrap: break-word;
+	background-color: #fff;
+	background-clip: border-box;
+	border: 5px solid rgba(5,8,20,.125);
+	border-radius: .25rem;
 }

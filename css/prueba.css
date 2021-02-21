@@ -611,3 +611,30 @@ html, body {
   justify-content: end;
   text-decoration-color: black;
   color: black; }
+
+.btn-primary:hover {
+  background-color: #FF5733;
+  border-color: #C1F1CD;
+  font-family: "A little sunshine", "sans-serif";
+  position: inherit;
+  justify-content: end;
+  text-decoration-color: black;
+  color: black; }
+
+.card-body {
+  -ms-flex: 1 1 auto;
+  padding: 1.25rem;
+  margin-bottom: 20px; }
+
+.card {
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 8;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 5px solid rgba(5, 8, 20, 0.125);
+  border-radius: .25rem; }
