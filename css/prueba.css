@@ -331,19 +331,16 @@ h6 {
   grid-auto-rows: 150px;
   justify-content: center;
   width: 80%;
-  height: 80%;
+  height: auto;
   color: white;
   margin: 10px;
   padding: 10px; }
 
 h1 {
   color: black;
-  color: black;
   font-size: 1,5rem;
   font-family: "bunya PERSONAL", "sans-serif";
   font-weight: bold;
-  /* text-align: center; */
-  /* border: 1px solid black; */
   margin: 50px;
   padding: 15px;
   transparent: #e9bcb7;
